@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #ec1094);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#cat-behind {
+    width: 150px;
+    border-radius: 25%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#al-Ahda {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#cute-cat {
+    margin-top: -8px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-box-cover.jpg");
+    background-size: cover;
+}
+
+#gift-happy:hover {
+    background-image: url("images/cat-tail.gif");
+}
+
+#greetings {
+    margin-top: -20px;
+    font-size: 10px;
+}
+
+#attention:hover {
+    background-image: url('images/box-prank.gif')
+}
+
+
+
+
